@@ -1,7 +1,7 @@
 ---
 title: "homework2"
 author: "eso"
-date: "2018¦~10¤ë5¤é"
+date: "2018å¹´10æœˆ5æ—¥"
 output: html_document
 ---
 
@@ -47,21 +47,21 @@ str(great_nba_teams)
 
 great_nba_teams$ is_champion
 greate_nba_teams[, "season"]
-> x <- c(1,2,3,4) #¼Æ¦r¦V¶q
+> x <- c(1,2,3,4) #æ•¸å­—å‘é‡
 > x
 [1] 1 2 3 4
 > season_1 <- "spring"
 > season_2 <- "summer"
 > season_3 <- "autumn"
 > season_4 <- "winter"
-> four_seasons <- c("spring", "summer", "autumn", "winter") #???¦r¦V¶q
+> four_seasons <- c("spring", "summer", "autumn", "winter") #???å­—å‘é‡
 > four_seasons
 [1] "spring" "summer" "autumn" "winter"
 > rep("2", times = 10)
  [1] "2" "2" "2" "2" "2" "2" "2" "2" "2" "2"
 > rep("R", times = 10)
  [1] "R" "R" "R" "R" "R" "R" "R" "R" "R" "R"
-> seq(from = 1, to = 10, by = 1) #µ¥®t¨ç¼Æ
+> seq(from = 1, to = 10, by = 1) #ç­‰å·®å‡½æ•¸
  [1]  1  2  3  4  5  6  7  8  9 10
 > 1:10
  [1]  1  2  3  4  5  6  7  8  9 10
@@ -85,19 +85,19 @@ greate_nba_teams[, "season"]
 > favorite_season <- four_seasons[3]
 > favorite_season
 [1] "autumn"
-> favorite_seasons <- four_seasons[c(-2, -4)] # §Ú³ßÅw¬K¤Ñ©Î¬î¤Ñ
+> favorite_seasons <- four_seasons[c(-2, -4)] # æˆ‘å–œæ­¡æ˜¥å¤©æˆ–ç§‹å¤©
 > favorite_seasons
 [1] "spring" "autumn"
 > my_favorite_season <- four_seasons == "autumn"
 > four_seasons[my_favorite_season]
 [1] "autumn"
-> my_favorite_seasons <- four_seasons == "spring" | four_seasons == "autumn" # §Ú³ßÅw¬K¤Ñ©Î¬î¤Ñ
+> my_favorite_seasons <- four_seasons == "spring" | four_seasons == "autumn" # æˆ‘å–œæ­¡æ˜¥å¤©æˆ–ç§‹å¤©
 > four_seasons[my_favorite_seasons]
 [1] "spring" "autumn"
 > numvec<-1:10 # c(1,2,3,4,5,6,7,8,9,10)
-> numvec+3 # ©Ò¦³¤¸¯À+3
+> numvec+3 # æ‰€æœ‰å…ƒç´ +3
  [1]  4  5  6  7  8  9 10 11 12 13
-> numvec*2 # ©Ò¦³¤¸¯À*2
+> numvec*2 # æ‰€æœ‰å…ƒç´ *2
  [1]  2  4  6  8 10 12 14 16 18 20
 > numvec1<-1:3 ## c(1,2,3)
 > numvec2<-4:6 ## c(4,5,6)
@@ -156,10 +156,10 @@ integer(0)
 > is_champion <- c(TRUE, FALSE)
 > season <- c("1995-96", "2015-16")
 > great_nba_teams <- data.frame(team_name, wins, losses, is_champion, season, stringsAsFactors = FALSE)
-> # §Q??? `$ÅÜ¼Æ¦WºÙ`
+> # åˆ©??? `$è®Šæ•¸åç¨±`
 > great_nba_teams$100
 Error: unexpected numeric constant in "great_nba_teams$100"
-> # §Q???`[, "ÅÜ¼Æ¦WºÙ"]`
+> # åˆ©???`[, "è®Šæ•¸åç¨±"]`
 > greate_nba_teams[, "___"]
 Error: object 'greate_nba_teams' not found
 > team_name <- c("Chicago Bulls", "Golden State Warriors")
@@ -168,10 +168,10 @@ Error: object 'greate_nba_teams' not found
 > is_champion <- c(TRUE, FALSE)
 > season <- c("1995-96", "2015-16")
 > great_nba_teams <- data.frame(team_name, wins, losses, is_champion, season, stringsAsFactors = FALSE)
-> # §Q??? `$ÅÜ¼Æ¦WºÙ`
+> # åˆ©??? `$è®Šæ•¸åç¨±`
 > great_nba_teams$100
 Error: unexpected numeric constant in "great_nba_teams$100"
-> # §Q???`[, "ÅÜ¼Æ¦WºÙ"]`
+> # åˆ©???`[, "è®Šæ•¸åç¨±"]`
 > greate_nba_teams[, "1"]
 Error: object 'greate_nba_teams' not found
 > team_name <- c("Chicago Bulls", "Golden State Warriors")
@@ -187,10 +187,10 @@ Error: object 'greate_nba_teams' not found
  $ losses     : num  10 9
  $ is_champion: logi  TRUE FALSE
  $ season     : chr  "1995-96" "2015-16"
-> # §Q??? `$ÅÜ¼Æ¦WºÙ`
+> # åˆ©??? `$è®Šæ•¸åç¨±`
 > great_nba_teams$Chicago Bulls
 Error: unexpected symbol in "great_nba_teams$Chicago Bulls"
-> # §Q???`[, "ÅÜ¼Æ¦WºÙ"]`
+> # åˆ©???`[, "è®Šæ•¸åç¨±"]`
 > greate_nba_teams[,"season"]
 Error: object 'greate_nba_teams' not found
 > team_name <- c("Chicago Bulls", "Golden State Warriors")
@@ -199,10 +199,10 @@ Error: object 'greate_nba_teams' not found
 > is_champion <- c(TRUE, FALSE)
 > season <- c("1995-96", "2015-16")
 > great_nba_teams <- data.frame(team_name, wins, losses, is_champion, season, stringsAsFactors = FALSE)
-> # §Q??? `$ÅÜ¼Æ¦WºÙ`
+> # åˆ©??? `$è®Šæ•¸åç¨±`
 > great_nba_teams$Chicago Bulls
 Error: unexpected symbol in "great_nba_teams$Chicago Bulls"
-> # §Q???`[, "ÅÜ¼Æ¦WºÙ"]`
+> # åˆ©???`[, "è®Šæ•¸åç¨±"]`
 > greate_nba_teams[, "1995-96"]
 Error: object 'greate_nba_teams' not found
 > team_name <- c("Chicago Bulls", "Golden State Warriors")
@@ -211,10 +211,10 @@ Error: object 'greate_nba_teams' not found
 > is_champion <- c(TRUE, FALSE)
 > season <- c("1995-96", "2015-16")
 > great_nba_teams <- data.frame(team_name, wins, losses, is_champion, season, stringsAsFactors = FALSE)
-> # §Q??? `$ÅÜ¼Æ¦WºÙ`
+> # åˆ©??? `$è®Šæ•¸åç¨±`
 > great_nba_teams$Chicago Bulls
 Error: unexpected symbol in "great_nba_teams$Chicago Bulls"
-> # §Q???`[, "ÅÜ¼Æ¦WºÙ"]`
+> # åˆ©???`[, "è®Šæ•¸åç¨±"]`
 > greate_nba_teams[, "1995"]
 Error: object 'greate_nba_teams' not found
 > team_name <- c("Chicago Bulls", "Golden State Warriors")
